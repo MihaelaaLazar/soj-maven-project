@@ -7,6 +7,9 @@
     <files>
         <file>
             <source>${project.build.directory}/${project.artifactId}-${project.version}.jar</source>
+        </file>
+        <file>
+            <source>${project.basedir}/exec/app.bat</source>
             <outputDirectory>/</outputDirectory>
         </file>
     </files>
